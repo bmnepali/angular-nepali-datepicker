@@ -1,0 +1,48 @@
+<div id="nepali-datepicker">
+
+  <!-- Dateficker field -->
+  <div [formGroup]="form">
+    <input type="text" class="form-control"
+    [value]="date || field.value"
+    [name]="field.key"
+    [id]="field.key"
+    [placeholder] = "field.placeholder"
+    (focus)="showCalendar()"/>
+  </div>
+
+  <!-- Datepicker popup -->
+  <div id="calendar" *ngIf="!isCalendarHidden">
+
+    <!-- Menu -->
+    <div id="head">
+      <table class="menu">
+        <tr>
+          <td>
+            <div class="arrow left" id="previous" (click)="previousMonth()">◄</div>
+          </td>
+          <td>
+            <select class="year left" id="year" [(ngModel)]="year" (ngModelChange)="onYearChange($event)">
+              <option *ngFor="let year of years" [value]="year">{{year}}</option>
+            </select>
+          </td>
+          <td>
+            <select class="month right" id="month" [(ngModel)]="month" (ngModelChange)="onMonthChange($event)">
+              <option *ngFor="let month of months" [value]="month">{{month}}</option>
+            </select>
+          </td>
+          <td>
+            <div class="arrow right" id="next" (click)="nextMonth()">►</div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Calendar <app-month></app-month> component-->
+    <app-month [monthData]='monthData' [year]='year' [month]='month' [day]='day' [selectedDate]='selectedDate' (notify)='onNotify($event)'></app-month>
+
+    <!-- Loading mask -->
+    <div id="mask" *ngIf="isLoading">
+      Loading ...
+    </div>
+  </div>
+</div>
