@@ -1,0 +1,3386 @@
+{
+  "Baishakh": [
+    {
+      "np": "1",
+      "en": "14",
+      "tithi": " चतुर्थी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": true
+    },
+    {
+      "np": "2",
+      "en": "15",
+      "tithi": " पञ्चमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "3",
+      "en": "16",
+      "tithi": " षष्ठी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "4",
+      "en": "17",
+      "tithi": " सप्तमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "5",
+      "en": "18",
+      "tithi": " अष्टमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "6",
+      "en": "19",
+      "tithi": " नवमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "7",
+      "en": "20",
+      "tithi": " दशमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "8",
+      "en": "21",
+      "tithi": " दशमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "9",
+      "en": "22",
+      "tithi": " एकादशी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "10",
+      "en": "23",
+      "tithi": " द्वादशी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "11",
+      "en": "24",
+      "tithi": " त्रायोदशी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "12",
+      "en": "25",
+      "tithi": " पुर्णिमा ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "13",
+      "en": "26",
+      "tithi": " प्रतिपदा ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "14",
+      "en": "27",
+      "tithi": " दृतीया ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "15",
+      "en": "28",
+      "tithi": " तृतीया ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "16",
+      "en": "29",
+      "tithi": " चतुर्थी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "17",
+      "en": "30",
+      "tithi": " पञ्चमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "18",
+      "en": "1",
+      "tithi": " षष्ठी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": true
+    },
+    {
+      "np": "19",
+      "en": "2",
+      "tithi": " अष्टमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "20",
+      "en": "3",
+      "tithi": " नवमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "21",
+      "en": "4",
+      "tithi": " दशमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "22",
+      "en": "5",
+      "tithi": " एकादशी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "23",
+      "en": "6",
+      "tithi": " द्वादशी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "24",
+      "en": "7",
+      "tithi": " त्रायोदशी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "25",
+      "en": "8",
+      "tithi": " चतुर्दशि ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "26",
+      "en": "9",
+      "tithi": " औसी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "27",
+      "en": "10",
+      "tithi": " प्रतिपदा ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "28",
+      "en": "11",
+      "tithi": " प्रतिपदा ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "29",
+      "en": "12",
+      "tithi": " दृतीया ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "30",
+      "en": "13",
+      "tithi": " तृतीया ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "31",
+      "en": "14",
+      "tithi": " चतुर्थी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    }
+  ],
+  "Jestha": [
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "1",
+      "en": "15",
+      "tithi": " पञ्चमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "2",
+      "en": "16",
+      "tithi": " षष्ठी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "3",
+      "en": "17",
+      "tithi": " सप्तमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "4",
+      "en": "18",
+      "tithi": " अष्टमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "5",
+      "en": "19",
+      "tithi": " नवमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "6",
+      "en": "20",
+      "tithi": " दशमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "7",
+      "en": "21",
+      "tithi": " एकादशी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "8",
+      "en": "22",
+      "tithi": " द्वादशी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "9",
+      "en": "23",
+      "tithi": " त्रायोदशी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "10",
+      "en": "24",
+      "tithi": " चतुर्दशि ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "11",
+      "en": "25",
+      "tithi": " पुर्णिमा ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "12",
+      "en": "26",
+      "tithi": " प्रतिपदा ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "13",
+      "en": "27",
+      "tithi": " दृतीया ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "14",
+      "en": "28",
+      "tithi": " चतुर्थी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "15",
+      "en": "29",
+      "tithi": " पञ्चमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": true
+    },
+    {
+      "np": "16",
+      "en": "30",
+      "tithi": " षष्ठी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "17",
+      "en": "31",
+      "tithi": " सप्तमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "18",
+      "en": "1",
+      "tithi": " अष्टमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "19",
+      "en": "2",
+      "tithi": " नवमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "20",
+      "en": "3",
+      "tithi": " दशमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "21",
+      "en": "4",
+      "tithi": " एकादशी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "22",
+      "en": "5",
+      "tithi": " द्वादशी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "23",
+      "en": "6",
+      "tithi": " त्रायोदशी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "24",
+      "en": "7",
+      "tithi": " चतुर्दशि ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "25",
+      "en": "8",
+      "tithi": " औसी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "26",
+      "en": "9",
+      "tithi": " प्रतिपदा ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "27",
+      "en": "10",
+      "tithi": " दृतीया ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "28",
+      "en": "11",
+      "tithi": " तृतीया ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "29",
+      "en": "12",
+      "tithi": " चतुर्थी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "30",
+      "en": "13",
+      "tithi": " पञ्चमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "31",
+      "en": "14",
+      "tithi": " षष्ठी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    }
+  ],
+  "Ashadh": [
+    {
+      "np": "30",
+      "en": "14",
+      "tithi": " षष्ठी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "31",
+      "en": "15",
+      "tithi": " सप्तमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "1",
+      "en": "15",
+      "tithi": " षष्ठी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "2",
+      "en": "16",
+      "tithi": "   सप्तमी  ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "3",
+      "en": "17",
+      "tithi": "   अष्टमी / नवमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "4",
+      "en": "18",
+      "tithi": "  दशमी  ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "5",
+      "en": "19",
+      "tithi": "  एकादशी  ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "6",
+      "en": "20",
+      "tithi": "   द्वादशी  ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "7",
+      "en": "21",
+      "tithi": "   त्रायोदशी  ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "8",
+      "en": "22",
+      "tithi": "  चतुर्दशि  ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "9",
+      "en": "23",
+      "tithi": "  पुर्णिमा  ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "10",
+      "en": "24",
+      "tithi": "  प्रतिपदा  ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "11",
+      "en": "25",
+      "tithi": "  दृतीया  ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "12",
+      "en": "26",
+      "tithi": "  तृतीया  ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "13",
+      "en": "27",
+      "tithi": "  चतुर्थी  ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "14",
+      "en": "28",
+      "tithi": "  पञ्चमी  ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "15",
+      "en": "29",
+      "tithi": "  सप्तमी  ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "16",
+      "en": "30",
+      "tithi": "  अष्टमी  ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "17",
+      "en": "1",
+      "tithi": "  नवमी  ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "18",
+      "en": "2",
+      "tithi": "  दशमी  ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "19",
+      "en": "3",
+      "tithi": "  एकादशी  ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "20",
+      "en": "4",
+      "tithi": "  द्वादशी  ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "21",
+      "en": "5",
+      "tithi": "  द्वादशी  ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "22",
+      "en": "6",
+      "tithi": "  त्रायोदशी  ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "23",
+      "en": "7",
+      "tithi": "  चतुर्दशि  ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "24",
+      "en": "8",
+      "tithi": "  औसी  ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "25",
+      "en": "9",
+      "tithi": "  प्रतिपदा  ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "26",
+      "en": "10",
+      "tithi": "  दृतीया  ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "27",
+      "en": "11",
+      "tithi": "   तृतीया  ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "28",
+      "en": "12",
+      "tithi": "  चतुर्थी  ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "29",
+      "en": "13",
+      "tithi": "   पञ्चमी  ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    }
+  ],
+  "Shrawan": [
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "1",
+      "en": "16",
+      "tithi": " अष्टमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "2",
+      "en": "17",
+      "tithi": " नवमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "3",
+      "en": "18",
+      "tithi": " दशमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "4",
+      "en": "19",
+      "tithi": " एकादशी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "5",
+      "en": "20",
+      "tithi": " दशमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "6",
+      "en": "21",
+      "tithi": " चतुर्दशि ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "7",
+      "en": "22",
+      "tithi": " पुर्णिमा ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "8",
+      "en": "23",
+      "tithi": " प्रतिपदा ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "9",
+      "en": "24",
+      "tithi": " दृतीया ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "10",
+      "en": "25",
+      "tithi": " तृतीया ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "11",
+      "en": "26",
+      "tithi": " चतुर्थी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "12",
+      "en": "27",
+      "tithi": " पञ्चमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "13",
+      "en": "28",
+      "tithi": " षष्ठी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "14",
+      "en": "29",
+      "tithi": " सप्तमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "15",
+      "en": "30",
+      "tithi": " अष्टमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "16",
+      "en": "31",
+      "tithi": " नवमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "17",
+      "en": "1",
+      "tithi": " दशमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "18",
+      "en": "2",
+      "tithi": " एकादशी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "19",
+      "en": "3",
+      "tithi": " द्वादशी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "20",
+      "en": "4",
+      "tithi": " त्रायोदशी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "21",
+      "en": "5",
+      "tithi": " षष्ठी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "22",
+      "en": "6",
+      "tithi": " औसी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "23",
+      "en": "7",
+      "tithi": " प्रतिपदा ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "24",
+      "en": "8",
+      "tithi": " दृतीया ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "25",
+      "en": "9",
+      "tithi": " तृतीया ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": true
+    },
+    {
+      "np": "26",
+      "en": "10",
+      "tithi": " चतुर्थी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "27",
+      "en": "11",
+      "tithi": " पञ्चमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "28",
+      "en": "12",
+      "tithi": " षष्ठी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "29",
+      "en": "13",
+      "tithi": " सप्तमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "30",
+      "en": "14",
+      "tithi": " अष्टमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "31",
+      "en": "15",
+      "tithi": " नवमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "32",
+      "en": "16",
+      "tithi": " दशमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    }
+  ],
+  "Bhadra": [
+    {
+      "np": "30",
+      "en": "15",
+      "tithi": " एकादशी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "31",
+      "en": "16",
+      "tithi": " द्वादशी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "1",
+      "en": "17",
+      "tithi": " एकादशी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "2",
+      "en": "18",
+      "tithi": " दृतीया ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "3",
+      "en": "19",
+      "tithi": " तृतीया ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "4",
+      "en": "20",
+      "tithi": " चतुर्थी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "5",
+      "en": "21",
+      "tithi": " पुर्णिमा ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": true
+    },
+    {
+      "np": "6",
+      "en": "22",
+      "tithi": " प्रतिपदा / दृतीया ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "7",
+      "en": "23",
+      "tithi": " तृतीया ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "8",
+      "en": "24",
+      "tithi": " चतुर्थी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "9",
+      "en": "25",
+      "tithi": " पञ्चमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "10",
+      "en": "26",
+      "tithi": " षष्ठी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "11",
+      "en": "27",
+      "tithi": " सप्तमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "12",
+      "en": "28",
+      "tithi": " अष्टमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": true
+    },
+    {
+      "np": "13",
+      "en": "29",
+      "tithi": " नवमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "14",
+      "en": "30",
+      "tithi": " नवमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "15",
+      "en": "31",
+      "tithi": " दशमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "16",
+      "en": "1",
+      "tithi": " एकादशी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "17",
+      "en": "2",
+      "tithi": " दशमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "18",
+      "en": "3",
+      "tithi": " त्रायोदशी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "19",
+      "en": "4",
+      "tithi": " चतुर्दशि ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "20",
+      "en": "5",
+      "tithi": " औसी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "21",
+      "en": "6",
+      "tithi": " प्रतिपदा ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "22",
+      "en": "7",
+      "tithi": " दृतीया ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "8",
+      "tithi": " तृतीया ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": true
+    },
+    {
+      "np": "24",
+      "en": "9",
+      "tithi": "  चतुर्थी  ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "25",
+      "en": "10",
+      "tithi": "  पञ्चमी  ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "26",
+      "en": "11",
+      "tithi": "  षष्ठी  ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "27",
+      "en": "12",
+      "tithi": "  सप्तमी  ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "28",
+      "en": "13",
+      "tithi": "   अष्टमी / नवमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "29",
+      "en": "14",
+      "tithi": "  दशमी  ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    }
+  ],
+  "Ashwin": [
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "1",
+      "en": "17",
+      "tithi": " त्रायोदशी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "2",
+      "en": "18",
+      "tithi": " चतुर्दशि ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "3",
+      "en": "19",
+      "tithi": " पुर्णिमा ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "4",
+      "en": "20",
+      "tithi": " प्रतिपदा ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "5",
+      "en": "21",
+      "tithi": " दृतीया ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "6",
+      "en": "22",
+      "tithi": " तृतीया ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "7",
+      "en": "23",
+      "tithi": " चतुर्थी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "8",
+      "en": "24",
+      "tithi": " पञ्चमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "9",
+      "en": "25",
+      "tithi": " षष्ठी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "10",
+      "en": "26",
+      "tithi": " सप्तमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "11",
+      "en": "27",
+      "tithi": " अष्टमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "12",
+      "en": "28",
+      "tithi": " नवमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "13",
+      "en": "29",
+      "tithi": " दशमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "14",
+      "en": "30",
+      "tithi": " एकादशी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "15",
+      "en": "1",
+      "tithi": " द्वादशी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "16",
+      "en": "2",
+      "tithi": " त्रायोदशी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "17",
+      "en": "3",
+      "tithi": " चतुर्दशि ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "18",
+      "en": "4",
+      "tithi": " चतुर्दशि ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "19",
+      "en": "5",
+      "tithi": " औसी / प्रतिपदा ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": true
+    },
+    {
+      "np": "20",
+      "en": "6",
+      "tithi": " दृतीया ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "21",
+      "en": "7",
+      "tithi": " तृतीया ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "22",
+      "en": "8",
+      "tithi": " चतुर्थी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "23",
+      "en": "9",
+      "tithi": " पञ्चमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "24",
+      "en": "10",
+      "tithi": " षष्ठी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "25",
+      "en": "11",
+      "tithi": " सप्तमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": true
+    },
+    {
+      "np": "26",
+      "en": "12",
+      "tithi": " अष्टमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "27",
+      "en": "13",
+      "tithi": " नवमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": true
+    },
+    {
+      "np": "28",
+      "en": "14",
+      "tithi": " दशमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": true
+    },
+    {
+      "np": "29",
+      "en": "15",
+      "tithi": " एकादशी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": true
+    },
+    {
+      "np": "30",
+      "en": "16",
+      "tithi": " द्वादशी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": true
+    },
+    {
+      "np": "31",
+      "en": "17",
+      "tithi": " चतुर्दशि ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    }
+  ],
+  "Kartik": [
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "1",
+      "en": "18",
+      "tithi": " पुर्णिमा ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "2",
+      "en": "19",
+      "tithi": " प्रतिपदा ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "3",
+      "en": "20",
+      "tithi": " दृतीया ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "4",
+      "en": "21",
+      "tithi": " तृतीया ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "5",
+      "en": "22",
+      "tithi": " तृतीया ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "6",
+      "en": "23",
+      "tithi": " चतुर्थी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "7",
+      "en": "24",
+      "tithi": " पञ्चमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "8",
+      "en": "25",
+      "tithi": " षष्ठी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "9",
+      "en": "26",
+      "tithi": " सप्तमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "10",
+      "en": "27",
+      "tithi": " अष्टमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "11",
+      "en": "28",
+      "tithi": " नवमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "12",
+      "en": "29",
+      "tithi": " दशमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "13",
+      "en": "30",
+      "tithi": " एकादशी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "14",
+      "en": "31",
+      "tithi": " द्वादशी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "15",
+      "en": "1",
+      "tithi": " त्रायोदशी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "16",
+      "en": "2",
+      "tithi": " चतुर्दशि ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "17",
+      "en": "3",
+      "tithi": " औसी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": true
+    },
+    {
+      "np": "18",
+      "en": "4",
+      "tithi": " प्रतिपदा ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": true
+    },
+    {
+      "np": "19",
+      "en": "5",
+      "tithi": " दृतीया ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": true
+    },
+    {
+      "np": "20",
+      "en": "6",
+      "tithi": " तृतीया ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "21",
+      "en": "7",
+      "tithi": " चतुर्थी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "22",
+      "en": "8",
+      "tithi": " पञ्चमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "23",
+      "en": "9",
+      "tithi": " षष्ठी / सप्तमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "24",
+      "en": "10",
+      "tithi": " अष्टमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "25",
+      "en": "11",
+      "tithi": " नवमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "26",
+      "en": "12",
+      "tithi": " दशमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "27",
+      "en": "13",
+      "tithi": " एकादशी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "28",
+      "en": "14",
+      "tithi": " द्वादशी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "29",
+      "en": "15",
+      "tithi": " त्रायोदशी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    }
+  ],
+  "Mangsir": [
+    {
+      "np": "30",
+      "en": "15",
+      "tithi": " त्रायोदशी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "1",
+      "en": "16",
+      "tithi": " चतुर्थी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "2",
+      "en": "17",
+      "tithi": " पुर्णिमा ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "3",
+      "en": "18",
+      "tithi": " प्रतिपदा ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "4",
+      "en": "19",
+      "tithi": " दृतीया ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": true
+    },
+    {
+      "np": "5",
+      "en": "20",
+      "tithi": " तृतीया ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "6",
+      "en": "21",
+      "tithi": " चतुर्थी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "7",
+      "en": "22",
+      "tithi": " पञ्चमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "8",
+      "en": "23",
+      "tithi": " षष्ठी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "9",
+      "en": "24",
+      "tithi": " सप्तमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "10",
+      "en": "25",
+      "tithi": " सप्तमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "11",
+      "en": "26",
+      "tithi": " अष्टमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "12",
+      "en": "27",
+      "tithi": " नवमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "13",
+      "en": "28",
+      "tithi": " दशमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "14",
+      "en": "29",
+      "tithi": " एकादशी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "15",
+      "en": "30",
+      "tithi": " द्वादशी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "16",
+      "en": "1",
+      "tithi": " त्रायोदशी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "17",
+      "en": "2",
+      "tithi": " चतुर्दशि औसी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "18",
+      "en": "3",
+      "tithi": " प्रतिपदा ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "19",
+      "en": "4",
+      "tithi": " à¤¦à¥ƒà¤¤à¥€à¤¯à¤¾ ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "20",
+      "en": "5",
+      "tithi": " तृतीया ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "21",
+      "en": "6",
+      "tithi": " चतुर्थी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "22",
+      "en": "7",
+      "tithi": " पञ्चमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "23",
+      "en": "8",
+      "tithi": " षष्ठी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "24",
+      "en": "9",
+      "tithi": " सप्तमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "25",
+      "en": "10",
+      "tithi": " अष्टमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "26",
+      "en": "11",
+      "tithi": " नवमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "27",
+      "en": "12",
+      "tithi": " दशमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "28",
+      "en": "13",
+      "tithi": " एकादशी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "29",
+      "en": "14",
+      "tithi": " द्वादशी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    }
+  ],
+  "Poush": [
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "1",
+      "en": "16",
+      "tithi": " चतुर्दशि ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "2",
+      "en": "17",
+      "tithi": " पुर्णिमा ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "3",
+      "en": "18",
+      "tithi": " प्रतिपदा ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "4",
+      "en": "19",
+      "tithi": " दृतीया ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "5",
+      "en": "20",
+      "tithi": " तृतीया ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "6",
+      "en": "21",
+      "tithi": " चतुर्थी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "7",
+      "en": "22",
+      "tithi": " पञ्चमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "8",
+      "en": "23",
+      "tithi": " षष्ठी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "9",
+      "en": "24",
+      "tithi": " सप्तमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "10",
+      "en": "25",
+      "tithi": " अष्टमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": true
+    },
+    {
+      "np": "11",
+      "en": "26",
+      "tithi": " नवमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "12",
+      "en": "27",
+      "tithi": " दशमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "13",
+      "en": "28",
+      "tithi": " एकादशी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "14",
+      "en": "29",
+      "tithi": " द्वादशी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "15",
+      "en": "30",
+      "tithi": " त्रायोदशी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "16",
+      "en": "31",
+      "tithi": " चतुर्दशि ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "17",
+      "en": "1",
+      "tithi": " औसी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": true
+    },
+    {
+      "np": "18",
+      "en": "2",
+      "tithi": " प्रतिपदा ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "19",
+      "en": "3",
+      "tithi": " दृतीया ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "20",
+      "en": "4",
+      "tithi": " तृतीया ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "21",
+      "en": "5",
+      "tithi": " चतुर्थी पञ्चमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "22",
+      "en": "6",
+      "tithi": " षष्ठी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "23",
+      "en": "7",
+      "tithi": " सप्तमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "24",
+      "en": "8",
+      "tithi": " अष्टमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "25",
+      "en": "9",
+      "tithi": " नवमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "26",
+      "en": "10",
+      "tithi": " दशमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "27",
+      "en": "11",
+      "tithi": " एकादशी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "28",
+      "en": "12",
+      "tithi": " द्वादशी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "29",
+      "en": "13",
+      "tithi": " त्रायोदशी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "30",
+      "en": "14",
+      "tithi": " चतुर्दशि ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    }
+  ],
+  "Magh": [
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "1",
+      "en": "15",
+      "tithi": " चतुर्थी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": true
+    },
+    {
+      "np": "2",
+      "en": "16",
+      "tithi": " पुर्णिमा ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "3",
+      "en": "17",
+      "tithi": " प्रतिपदा ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "4",
+      "en": "18",
+      "tithi": " दृतीया ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "5",
+      "en": "19",
+      "tithi": " तृतीया ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "6",
+      "en": "20",
+      "tithi": " चतुर्थी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "7",
+      "en": "21",
+      "tithi": " पञ्चमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "8",
+      "en": "22",
+      "tithi": " षष्ठी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "9",
+      "en": "23",
+      "tithi": " सप्तमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "10",
+      "en": "24",
+      "tithi": " अष्टमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "11",
+      "en": "25",
+      "tithi": " नवमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "12",
+      "en": "26",
+      "tithi": " दशमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "13",
+      "en": "27",
+      "tithi": " एकादशी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "14",
+      "en": "28",
+      "tithi": " द्वादशी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "15",
+      "en": "29",
+      "tithi": " त्रायोदशी चतुर्दशि ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "16",
+      "en": "30",
+      "tithi": " औसी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": true
+    },
+    {
+      "np": "17",
+      "en": "31",
+      "tithi": " प्रतिपदा ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": true
+    },
+    {
+      "np": "18",
+      "en": "1",
+      "tithi": " दृतीया ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "19",
+      "en": "2",
+      "tithi": " तृतीया ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "20",
+      "en": "3",
+      "tithi": " चतुर्थी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "21",
+      "en": "4",
+      "tithi": " पञ्चमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "22",
+      "en": "5",
+      "tithi": " षष्ठी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "23",
+      "en": "6",
+      "tithi": " सप्तमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "24",
+      "en": "7",
+      "tithi": " अष्टमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "25",
+      "en": "8",
+      "tithi": " नवमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "26",
+      "en": "9",
+      "tithi": " दशमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "27",
+      "en": "10",
+      "tithi": " एकादशी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "28",
+      "en": "11",
+      "tithi": " द्वादशी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "29",
+      "en": "12",
+      "tithi": " त्रायोदशी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    }
+  ],
+  "Falgun": [
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "1",
+      "en": "13",
+      "tithi": " चतुर्दशी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "2",
+      "en": "14",
+      "tithi": " पुर्णिमा ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "3",
+      "en": "15",
+      "tithi": " प्रतिपदा ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "4",
+      "en": "16",
+      "tithi": " प्रतिपदा ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "5",
+      "en": "17",
+      "tithi": " दृतीया ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "6",
+      "en": "18",
+      "tithi": " तृतीया ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "7",
+      "en": "19",
+      "tithi": " चतुर्थी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": true
+    },
+    {
+      "np": "8",
+      "en": "20",
+      "tithi": " पञ्चमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "9",
+      "en": "21",
+      "tithi": " षष्ठी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "10",
+      "en": "22",
+      "tithi": " सप्तमी / अष्टमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "11",
+      "en": "23",
+      "tithi": " नवमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "12",
+      "en": "24",
+      "tithi": " दशमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "13",
+      "en": "25",
+      "tithi": " एकादशी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "14",
+      "en": "26",
+      "tithi": " द्वादशी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "15",
+      "en": "27",
+      "tithi": " त्रयोदशी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": true
+    },
+    {
+      "np": "16",
+      "en": "28",
+      "tithi": " चतुर्दशी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "17",
+      "en": "1",
+      "tithi": " औसी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "18",
+      "en": "2",
+      "tithi": " प्रतिपदा ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": true
+    },
+    {
+      "np": "19",
+      "en": "3",
+      "tithi": " दृतीया ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "20",
+      "en": "4",
+      "tithi": " तृतीया ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "21",
+      "en": "5",
+      "tithi": " चतुर्थी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "22",
+      "en": "6",
+      "tithi": " पञ्चमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "23",
+      "en": "7",
+      "tithi": " षष्ठी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "24",
+      "en": "8",
+      "tithi": " सप्तमी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "25",
+      "en": "9",
+      "tithi": " अष्टमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "26",
+      "en": "10",
+      "tithi": " नवमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "27",
+      "en": "11",
+      "tithi": " दशमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "28",
+      "en": "12",
+      "tithi": " एकादशी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "29",
+      "en": "13",
+      "tithi": " द्वादशी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "30",
+      "en": "14",
+      "tithi": " त्रयोदशी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    }
+  ],
+  "Chaitra": [
+    {
+      "np": "30",
+      "en": "13",
+      "tithi": " त्रयोदशी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "",
+      "en": "",
+      "tithi": "",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "1",
+      "en": "15",
+      "tithi": " चतुर्थी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "2",
+      "en": "16",
+      "tithi": " पुर्णिमा ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": true
+    },
+    {
+      "np": "3",
+      "en": "17",
+      "tithi": " प्रतिपदा ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "4",
+      "en": "18",
+      "tithi": " दृतीया ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "5",
+      "en": "19",
+      "tithi": " तृतीया ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "6",
+      "en": "20",
+      "tithi": " चतुर्थी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "7",
+      "en": "21",
+      "tithi": " पञ्चमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "8",
+      "en": "22",
+      "tithi": " षष्ठी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "9",
+      "en": "23",
+      "tithi": " सप्तमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "10",
+      "en": "24",
+      "tithi": " अष्टमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "11",
+      "en": "25",
+      "tithi": " नवमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "12",
+      "en": "26",
+      "tithi": " दशमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "13",
+      "en": "27",
+      "tithi": " एकादशी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "14",
+      "en": "28",
+      "tithi": " द्वादशी / त्रयोदशी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "15",
+      "en": "29",
+      "tithi": " चतुर्दशी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "16",
+      "en": "30",
+      "tithi": " औसी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "17",
+      "en": "31",
+      "tithi": " प्रतिपदा ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "18",
+      "en": "1",
+      "tithi": " दृतीया ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": false
+    },
+    {
+      "np": "19",
+      "en": "2",
+      "tithi": " तृतीया ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "20",
+      "en": "3",
+      "tithi": " चतुर्थी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "21",
+      "en": "4",
+      "tithi": " पञ्चमी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "22",
+      "en": "5",
+      "tithi": " षष्ठी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    },
+    {
+      "np": "23",
+      "en": "6",
+      "tithi": " सप्तमी ",
+      "day": "sun",
+      "bar": "आइत",
+      "holiday": false
+    },
+    {
+      "np": "24",
+      "en": "7",
+      "tithi": " अष्टमी ",
+      "day": "mon",
+      "bar": "सोम",
+      "holiday": false
+    },
+    {
+      "np": "25",
+      "en": "8",
+      "tithi": " नवमी ",
+      "day": "tue",
+      "bar": "मगल",
+      "holiday": true
+    },
+    {
+      "np": "26",
+      "en": "9",
+      "tithi": " दशमी ",
+      "day": "wed",
+      "bar": "बुध",
+      "holiday": false
+    },
+    {
+      "np": "27",
+      "en": "10",
+      "tithi": " दशमी ",
+      "day": "thu",
+      "bar": "बिहि",
+      "holiday": false
+    },
+    {
+      "np": "28",
+      "en": "11",
+      "tithi": " एकादशी ",
+      "day": "fri",
+      "bar": "शुक्र",
+      "holiday": false
+    },
+    {
+      "np": "29",
+      "en": "12",
+      "tithi": " द्वादशी ",
+      "day": "sat",
+      "bar": "शनि",
+      "holiday": false
+    }
+  ]
+}

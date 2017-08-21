@@ -1,0 +1,60 @@
+<div class="row">
+  <div class="col-md-5">
+    <div class="panel panel-primary">
+      <div class="panel-heading text-center">
+        <strong>Dynamic Demo From</strong>
+      </div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-12">
+            <form (ngSubmit)="onSubmit()" [formGroup]="form">
+              <div *ngFor="let field of fields">
+                <field [field]="field" [uploader]="uploader" [form]="form"></field>
+              </div>
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <!-- <button  class="btn btn-primary" type="submit" [disabled]="!form.valid || !uploader.getNotUploadedItems().length">Save</button> -->
+                  <br><button  class="btn btn-primary" type="submit" [disabled]="!form.valid">Save</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-7">
+    <div class="panel panel-primary">
+      <div class="panel-heading text-center">
+        <strong>Saved Data</strong>
+      </div>
+      <div class="panel-body">
+        <table class="table table-bordered table-responsive">
+          <thead>
+            <tr>
+              <td>First Name</td>
+              <td>Address</td>
+              <td>Email</td>
+              <td>DOB</td>
+              <td>Registered Date</td>
+              <td>Profile</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let data of savedForm">
+              <td>{{data.fname}}</td>
+              <td>{{data.address}}</td>
+              <td>{{data.email}}</td>
+              <td>{{data.dob}}</td>
+              <td>{{data.registerDate}}</td>
+              <td>{{data.profile}}</td>
+            </tr>
+            <tr ngShow="!savedForm">
+              <td colspan="6"> No data saved!</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

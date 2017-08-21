@@ -1,0 +1,49 @@
+<div class="form-group"
+  [formGroup]="form"
+  [ngSwitch]="field.controlType">
+
+  <!-- Field label -->
+  <label class="pull-left" [attr.for]="field.key"><span class="small-label">{{field.label}}</span></label>
+
+  <!-- Text Field -->
+  <input *ngSwitchCase="'text'"
+    class="form-control"
+    [formControlName]="field.key"
+    [id]="field.key"
+    [placeholder] = "field.placeholder"
+    [type]="field.type"/>
+
+  <!-- Email Field -->
+  <input *ngSwitchCase="'email'"
+    class="form-control"
+    [formControlName]="field.key"
+    [id]="field.key"
+    [placeholder] = "field.placeholder"
+    [type]="field.type"
+    email />
+
+  <!-- File Field -->
+  <input *ngSwitchCase="'file'"
+    class="form-control"
+    name="photo"
+    [formControlName]="field.key"
+    [id]="field.key"
+    [type]="field.type"
+    ng2FileSelect
+    [uploader]="uploader" />
+
+  <!-- Select Option field -->
+  <select *ngSwitchCase="'dropdown'"
+    class="form-control"
+    [formControlName]="field.key"
+    [id]="field.key"
+    [(ngModel)]="dropdown">
+    <option *ngFor="let opt of field.options" [value]="opt.key" [attr.selected]="opt.key == field.selected">{{opt.value}}</option>
+  </select>
+
+  <!-- <app-datepicker></app-datepicker> Component -->
+  <app-datepicker *ngSwitchCase="'datepicker'" [field]='field' [form]='form' [value]='field.value'></app-datepicker>
+
+  <!-- Help text (warning) -->
+  <div class="help-text text-muted text-left" *ngIf="!isValid"><i>*{{field.label}} is required</i></div>
+</div>
