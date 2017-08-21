@@ -1,0 +1,24 @@
+<table cellspacing="0" class="main">
+  <thead>
+    <tr>
+      <td>आइत</td>
+      <td>सोम</td>
+      <td>मगल</td>
+      <td>बुध</td>
+      <td>बिहि</td>
+      <td>शुक्र</td>
+      <td>शनि</td>
+    </tr>
+  </thead>
+  <tbody id="tbody">
+    <tr *ngFor="let week of chunk(monthData, 7)">
+      <td class='day'
+        [ngClass]="{'active': day == monthDay.np && selectedDate.month == month && selectedDate.year == year}"
+        *ngFor="let monthDay of week"
+        (click)='selectDate(monthDay)'>
+        <div class='np'>{{monthDay.np}}</div>
+        <div class='en'>{{monthDay.en}}</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
