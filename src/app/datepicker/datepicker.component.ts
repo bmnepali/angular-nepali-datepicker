@@ -100,7 +100,7 @@ export class DatepickerComponent implements OnInit {
    */
   fetchData(year) {
     this.isLoading = true;
-    this.CalendarService.getCalendar("/data/" + year + ".json")
+    this.CalendarService.getCalendar("https://github.com/bmnepali/angular-nepali-datepicker/tree/master/data/" + year + ".json")
       .subscribe (
         (response) => {
           this.fetchedYear = response.json();
