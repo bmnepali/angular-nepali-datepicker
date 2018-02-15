@@ -38,7 +38,9 @@
     </div>
 
     <!-- Calendar <app-month></app-month> component-->
-    <app-month [monthData]='monthData' [year]='year' [month]='month' [day]='day' [selectedDate]='selectedDate' (notify)='onNotify($event)'></app-month>
+    <app-month [monthData]='monthData' [year]='year' 
+      [month]='month' [day]='day' [selectedDate]='selectedDate' 
+      (notify)='onNotify($event)'></app-month>
 
     <!-- Loading mask -->
     <div id="mask" *ngIf="isLoading">
