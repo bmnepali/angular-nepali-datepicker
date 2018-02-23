@@ -38,6 +38,4 @@ import { MonthComponent }         from './datepicker/month/month.component';
   providers: [CalendarService, FieldService, ],
   bootstrap: [AppComponent]
 })
-export class AppModule {
-  // Code related to app module
-}
+export class AppModule {}
