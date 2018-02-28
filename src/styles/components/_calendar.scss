@@ -1,0 +1,45 @@
+.calendar-nav {
+  background: rgba(147,206,222,1);
+  background-color: transparent;
+  width: 250px;
+
+  select {
+    background-color: transparent;
+    outline: none;
+  }
+}
+
+table.calendar-menu {
+  width: 250px;
+}
+
+table.calendar-content {
+  tr td {
+    background: rgba(246,246,246,1);
+    background-color: $white;
+    font-size: 14px;
+    height: 20px;
+    margin: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 40px;
+  }
+
+  tbody tr td {
+    border: 0.1px solid $bg-color;
+
+    &:hover {
+      background: $yellow;
+    }
+  }
+
+  thead tr td {
+    background-color: $whitesmoke;
+    border: 1px solid $shadow-color;
+    font-size: 12px;
+
+    &.active {
+      background-color: $whitesmoke;
+    }
+  }
+}
