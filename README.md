@@ -1,10 +1,10 @@
-# FormAppDemo
+# Angular Nepali Date Picker
 
-This is the angular datepicker custom built for nepali date picking functionality.
+This is the angular 5 nepali date picker project, custom built for nepali date picking functionality.
 
 ## Usage:
 
-Use the datepicker component as followiigin your desired component.
+Use the datepicker component as following in your desired angular component.
 
 ```html
 <!-- <app-datepicker></app-datepicker> Component -->
@@ -17,26 +17,41 @@ Use the datepicker component as followiigin your desired component.
 </app-datepicker>
 ```
 
-## Demo App:
+## Demo App GIF:
 
 http://recordit.co/iicazxck75
 
+## More on using this demo app:
 
-## More on using this demp app:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.5.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
+## Running this demo app in your local machine:
+
+1. Clone this repo:
+   - `git clone https://github.com/bmnepali/angular-nepali-datepicker.git`
+
+2. Go to `angular-nepali-datepicker` directory:
+   - `cd angular-nepali-datepicker`
+
+3. Install the dependencies:
+   - `npm install`
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Run `ng serve` for a dev server. 
+- Navigate to `http://localhost:4200/`. 
+
+The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Run `ng generate component component-name` to generate a new component. 
+- You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+- Run `ng build` to build the project. 
+- The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
 ## Running unit tests
 
@@ -50,3 +65,6 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Contributers:
+1. Buddha Man Nepali (Author)
