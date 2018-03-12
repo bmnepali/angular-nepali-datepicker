@@ -1,5 +1,29 @@
 # FormAppDemo
 
+This is the angular datepicker custom built for nepali date picking functionality.
+
+## Usage:
+
+Use the datepicker component as followiigin your desired component.
+
+```html
+<!-- <app-datepicker></app-datepicker> Component -->
+<app-datepicker 
+  [id]="field.key" 
+  [field]='field' 
+  [form]='form' 
+  [value]='field.value' 
+  (callback)="update($event)">
+</app-datepicker>
+```
+
+## Demo App:
+
+http://recordit.co/iicazxck75
+
+
+## More on using this demp app:
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
 ## Development server
