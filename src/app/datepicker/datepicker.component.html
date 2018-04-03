@@ -1,21 +1,16 @@
-<div id="nepali-datepicker">
+<div id="nepali-datepicker" #eRef>
 
   <!-- Dateficker field -->
   <div [formGroup]="form">
-    <input type="text" class="form-control"
-    [value]="date || field.value"
-    [name]="field.key"
-    [id]="field.key"
-    [placeholder] = "field.placeholder"
-    (focus)="showCalendar()"/>
+    <input type="text" class="form-control" [value]="date || field.value" [name]="field.key" [id]="field.key"
+      [placeholder]="field.placeholder" (focus)="showCalendar()" />
   </div>
 
   <!-- Datepicker popup -->
-  <div id="calendar" *ngIf="!isCalendarHidden">
-
+  <div id="calendar" *ngIf="!isCalendarHidden" #calendar>
     <!-- Menu -->
-    <div id="head">
-      <table class="menu">
+    <div class="calendar-nav">
+      <table class="calendar-menu">
         <tr>
           <td>
             <div class="arrow left" id="previous" (click)="previousMonth()">◄</div>
@@ -38,13 +33,13 @@
     </div>
 
     <!-- Calendar <app-month></app-month> component-->
-    <app-month [monthData]='monthData' [year]='year' 
-      [month]='month' [day]='day' [selectedDate]='selectedDate' 
-      (notify)='onNotify($event)'></app-month>
+    <app-month [monthData]='monthData' [year]='year' [month]='month' [day]='day' [selectedDate]='selectedDate' (notify)='onNotify($event)'></app-month>
 
     <!-- Loading mask -->
-    <div id="mask" *ngIf="isLoading">
-      Loading ...
+    <div class="overlay" *ngIf="isLoading">
+      <div class="loader">
+        <p>Loading ...</p>
+      </div>
     </div>
   </div>
 </div>
