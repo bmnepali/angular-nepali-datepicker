@@ -17,7 +17,7 @@ export class FieldService {
    * @return {array} List of fields
    */
   getFields () {
-    let fields: any[] = [
+    const fields: any[] = [
       new DropdownField({
         key: 'dropdown',
         label: 'Dropdown',

@@ -13,7 +13,7 @@ export class CalendarService {
 
   /**
    * Gets calendar data from given url
-   * @param {String} commentsUrl 
+   * @param {String} commentsUrl
    */
   getCalendar(commentsUrl) {
     return this.http.get(commentsUrl);
