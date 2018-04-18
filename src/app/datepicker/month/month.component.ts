@@ -18,7 +18,7 @@ export class MonthComponent {
 
   // Consructor
   constructor() {
-    this.weekDays = ['आइत','सोम','मगल','बुध','बिहि','शुक्र','शनि']
+    this.weekDays = ['आइत', 'सोम', 'मगल', 'बुध', 'बिहि', 'शुक्र', 'शनि'];
   }
 
   /**

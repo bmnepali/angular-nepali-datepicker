@@ -50,7 +50,7 @@ export class DatepickerComponent implements OnInit {
   // Dicument click handler
   @HostListener('document:click', ['$event'])
   clickout(event) {
-    if(this.eRef && this.eRef.nativeElement.contains(event.target)) {
+    if (this.eRef && this.eRef.nativeElement.contains(event.target)) {
       this.showCalendar();
     } else {
       if (this.calendar) {
@@ -67,22 +67,22 @@ export class DatepickerComponent implements OnInit {
     this.monthData = [];
     this.years = [];
 
-    this.day= '9';
-    this.month = "Ashwin";
+    this.day = '9';
+    this.month = 'Ashwin';
     this.year = '2070';
 
     this.maxYear = '2072';
     this.minYear = '2070';
 
     this.months = [
-      "Baishakh", "Jestha","Ashadh","Shrawan","Bhadra","Ashwin",
-      "Kartik","Mangsir","Poush","Magh","Falgun","Chaitra"
+      'Baishakh', 'Jestha', 'Ashadh', 'Shrawan', 'Bhadra', 'Ashwin',
+      'Kartik', 'Mangsir', 'Poush', 'Magh', 'Falgun', 'Chaitra'
     ];
 
     this.selectedDate = {
       day: '',
       month: '',
-      year:''
+      year: ''
     };
 
     this.isCalendarHidden = true;
@@ -95,8 +95,8 @@ export class DatepickerComponent implements OnInit {
   // On Component Initialiazation
   ngOnInit () {
     if (this.value) {
-      let selected: any = this.value.split(" ");
-      let date: any = selected.toString().split(",");
+      const selected: any = this.value.split(' ');
+      const date: any = selected.toString().split(',');
 
       this.selectedDate.day = this.day = date[0];
       this.selectedDate.month = this.month = date[1];
@@ -106,12 +106,12 @@ export class DatepickerComponent implements OnInit {
 
   /**
    * Updates datepicker value
-   * @param data 
+   * @param data
    */
   callParent(data) {
-    this.callback.emit({ 
-      key: this.id, 
-      data: data 
+    this.callback.emit({
+      key: this.id,
+      data: data
     });
   }
 
@@ -121,7 +121,7 @@ export class DatepickerComponent implements OnInit {
    * @param {string} message
    */
   onNotify(data: any[]) {
-    this.date = data[0] + " " + data[1] + ", " + data[2];
+    this.date = data[0] + ' ' + data[1] + ', ' + data[2];
     this.day = data[0];
     this.callParent(this.date);
     this.hideCalendar();
@@ -131,7 +131,7 @@ export class DatepickerComponent implements OnInit {
    * Load the select options for year and months dropdowns
    */
   loadDropDowns() {
-    for(let i = parseInt(this.minYear); i <= parseInt(this.maxYear); i++){
+    for (let i = parseInt(this.minYear); i <= parseInt(this.maxYear); i++){
   		this.years.push(i);
   	}
   }
@@ -148,8 +148,8 @@ export class DatepickerComponent implements OnInit {
    * Get the year's data  and populate the data to the calander
    */
   fetchData(year) {
-    const dataUrl = "https://raw.githubusercontent.com/bmnepali/angular-nepali-datepicker/master/data/" + year + ".json";
-    
+    const dataUrl = 'https://raw.githubusercontent.com/bmnepali/angular-nepali-datepicker/master/data/' + year + '.json';
+
     this.isLoading = true;
     this.CalendarService.getCalendar(dataUrl)
       .subscribe (
@@ -168,16 +168,16 @@ export class DatepickerComponent implements OnInit {
   nextMonth () {
     let index = this.months.indexOf(this.month);
 
-  	if(index < 11){
+  	if (index < 11){
       this.month = this.months[++index];
   		this.loadData(this.months[index]);
   	} else {
-  		if((parseInt(this.year) + 1) <= parseInt(this.maxYear)){
+  		if ((parseInt(this.year) + 1) <= parseInt(this.maxYear)){
         this.year = (parseInt(this.year) + 1).toString();
         this.month = this.months[0];
   			this.fetchData(this.year);
   		} else {
-        console.log("Unavailable next year" + (parseInt(this.year)+1) + " max : " + this.maxYear);
+        console.log('Unavailable next year' + (parseInt(this.year) + 1) + ' max : ' + this.maxYear);
       }
   	}
   }
@@ -188,16 +188,16 @@ export class DatepickerComponent implements OnInit {
   previousMonth () {
     let index = this.months.indexOf(this.month);
 
-    if(index >= 1){
+    if (index >= 1){
       this.month = this.months[--index];
   		this.loadData(this.months[index]);
   	} else {
-  		if((parseInt(this.year) - 1) >= parseInt(this.minYear)){
+  		if ((parseInt(this.year) - 1) >= parseInt(this.minYear)){
         this.year = (parseInt(this.year) - 1).toString();
         this.month = this.months[11];
   			this.fetchData(this.year);
   		} else {
-        console.log("Unavailable previous date");
+        console.log('Unavailable previous date');
       }
   	}
   }
