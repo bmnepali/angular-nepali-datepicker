@@ -30,10 +30,10 @@ export class FormComponent implements OnInit {
 
   /**
    * Declare a property called fileuploader and assign it to an instance of a new fileUploader.
-   * Pass in the Url to be uploaded to, and pass the itemAlais, which would be the name of the 
+   * Pass in the Url to be uploaded to, and pass the itemAlais, which would be the name of the
    * file input when sending the post request.
    */
-  public uploader:FileUploader = new FileUploader({url: URL + '/upload', itemAlias: 'photo'});
+  public uploader: FileUploader = new FileUploader({url: URL + '/upload', itemAlias: 'photo'});
 
   constructor(private fieldsService: FieldControlService) {
     this.payLoad = '';
@@ -52,14 +52,14 @@ export class FormComponent implements OnInit {
     };
 
     // Handler after file upload cmplete
-	  this.uploader.onCompleteItem = (item:any, response:any, status:any, headers:any) => {
-      console.log("ImageUpload:uploaded:", item, status, response);
+	  this.uploader.onCompleteItem = (item: any, response: any, status: any, headers: any) => {
+      console.log('ImageUpload:uploaded:', item, status, response);
     };
   }
-  
+
   /**
    * Updates form field value
-   * @param value 
+   * @param value
    */
   updateValue(value){
     this.form.controls[value.key].setValue(value.data);

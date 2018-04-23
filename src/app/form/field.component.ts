@@ -25,7 +25,7 @@ export class FieldComponent implements OnInit {
 
   /**
    * Updates fields value
-   * @param data 
+   * @param data
    */
   update(data) {
     this.awesome.emit(data);
