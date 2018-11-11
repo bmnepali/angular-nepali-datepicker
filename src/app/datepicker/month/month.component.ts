@@ -14,13 +14,20 @@ export class MonthComponent {
   @Input() year: string;
   @Input() day: string;
 
+  weekDays: any[];
+
+  // Consructor
+  constructor() {
+    this.weekDays = ['आइत','सोम','मगल','बुध','बिहि','शुक्र','शनि']
+  }
+
   /**
    * Create chuncks of array of given size
-   * @param  {array} arr
-   * @param  {number} chunkSize
-   * @return {array}
+   * @param  {Array} arr
+   * @param  {Number} chunkSize
+   * @return {Array}
    */
-  chunk (arr, chunkSize) {
+  weeklyChunk(arr, chunkSize) {
     let groups = [], i;
 
     for (i = 0; i < arr.length; i += chunkSize) {
@@ -32,7 +39,7 @@ export class MonthComponent {
 
   /**
    * Selects date and send to to the listener
-   * @param  {object} date
+   * @param  {Object} date
    */
   selectDate (date) {
     this.notify.emit([date.np, this.month, this.year]);

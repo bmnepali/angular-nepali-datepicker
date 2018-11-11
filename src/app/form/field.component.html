@@ -42,7 +42,7 @@
   </select>
 
   <!-- <app-datepicker></app-datepicker> Component -->
-  <app-datepicker *ngSwitchCase="'datepicker'" [field]='field' [form]='form' [value]='field.value'></app-datepicker>
+  <app-datepicker *ngSwitchCase="'datepicker'" [id]="field.key" [field]='field' [form]='form' [value]='field.value' (callback)="update($event)"></app-datepicker>
 
   <!-- Help text (warning) -->
   <div class="help-text text-muted text-left" *ngIf="!isValid"><i>*{{field.label}} is required</i></div>

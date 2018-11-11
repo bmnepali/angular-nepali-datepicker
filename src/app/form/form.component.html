@@ -1,19 +1,15 @@
 <div class="row">
   <div class="col-md-5">
     <div class="panel panel-primary">
-      <div class="panel-heading text-center">
-        <strong>Dynamic Demo From</strong>
-      </div>
       <div class="panel-body">
         <div class="row">
           <div class="col-md-12">
             <form (ngSubmit)="onSubmit()" [formGroup]="form">
               <div *ngFor="let field of fields">
-                <field [field]="field" [uploader]="uploader" [form]="form"></field>
+                <field [field]="field" [uploader]="uploader" (awesome)="updateValue($event)" [form]="form"></field>
               </div>
               <div class="row">
                 <div class="col-md-12 text-center">
-                  <!-- <button  class="btn btn-primary" type="submit" [disabled]="!form.valid || !uploader.getNotUploadedItems().length">Save</button> -->
                   <br><button  class="btn btn-primary" type="submit" [disabled]="!form.valid">Save</button>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 // Core imports
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, Output, OnInit } from '@angular/core';
 import { FormGroup }        from '@angular/forms';
 
 // Import the file uploader plugin
@@ -16,12 +16,19 @@ export class FieldComponent implements OnInit {
   @Input() field: BaseFields<any>;
   @Input() form: FormGroup;
   @Input() uploader: FileUploader;
+  @Output() awesome = new EventEmitter<any>();
 
   /**
    * Handler to make initial setup for field
    */
-  ngOnInit () {
-    // Field set up operations
+  ngOnInit () {}
+
+  /**
+   * Updates fields value
+   * @param data 
+   */
+  update(data) {
+    this.awesome.emit(data);
   }
 
   /**

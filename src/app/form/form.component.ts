@@ -13,7 +13,7 @@ import { FieldService }             from './services/field.service';
 import { FieldControlService }      from './services/field-control.service';
 
 // Constant data
-const URL = 'http://localhost:3000';
+const URL = 'http://localhost:4200';
 
 // Component Decorator
 @Component({
@@ -23,15 +23,22 @@ const URL = 'http://localhost:3000';
 })
 export class FormComponent implements OnInit {
   @Input() fields: BaseFields<any>[] = [];
-  form: FormGroup;
-  payLoad = '';
-  savedForm = [];
 
-  // Declare a property called fileuploader and assign it to an instance of a new fileUploader.
-  // Pass in the Url to be uploaded to, and pass the itemAlais, which would be the name of the //file input when sending the post request.
+  form: FormGroup;
+  payLoad: any = '';
+  savedForm: any[] = [];
+
+  /**
+   * Declare a property called fileuploader and assign it to an instance of a new fileUploader.
+   * Pass in the Url to be uploaded to, and pass the itemAlais, which would be the name of the 
+   * file input when sending the post request.
+   */
   public uploader:FileUploader = new FileUploader({url: URL + '/upload', itemAlias: 'photo'});
 
-  constructor(private fieldsService: FieldControlService) {  }
+  constructor(private fieldsService: FieldControlService) {
+    this.payLoad = '';
+    this.savedForm = [];
+  }
 
   /**
    * Handler to make initial setup for form
@@ -48,7 +55,15 @@ export class FormComponent implements OnInit {
 	  this.uploader.onCompleteItem = (item:any, response:any, status:any, headers:any) => {
       console.log("ImageUpload:uploaded:", item, status, response);
     };
-	}
+  }
+  
+  /**
+   * Updates form field value
+   * @param value 
+   */
+  updateValue(value){
+    this.form.controls[value.key].setValue(value.data);
+  }
 
   /**
    * Handler to sublit dynamic form

@@ -1,0 +1,86 @@
+
+// Styles Overrides
+code {
+  font-size: 10px;
+}
+
+// Styles for Datepicker
+#nepali-datepicker {
+  position: relative;
+
+  #calendar {
+    background-color: $bg-color;
+    box-shadow: 0 1px 3px $shadow-color;
+    cursor: default;
+    font-family: sans-serif;
+    padding: 5px;
+    position: absolute;
+    width: 260px;
+    z-index: 100000;
+  }
+
+  .arrow {
+    background: $arrow-background;
+    border-radius: 50%;
+    color: $white;
+    content: '';
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 10px;
+    padding: 6px 7px;
+    text-decoration: none;
+
+    &:hover {
+      background: $blue;
+      text-decoration: inherit;
+    }
+  }
+
+  .left,
+  .right {
+    margin: 5px 0;
+  }
+
+  .left {
+    float:left;
+    padding: 5px 9px 5px 7px;
+  }
+
+  .right {
+    float: right;
+    padding: 5px 6px 5px 9px;
+  }
+
+  .date {
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    width: 144px;
+  }
+
+  .year,
+  .month {
+    border-style: none;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 7px;
+  }
+
+  .en {
+    color: $arrow-background;
+    float: right;
+    font-size: 8px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    margin-top: 15px;
+  }
+
+  .np {
+    float: left;
+  }
+
+  .day.active {
+    background: $active;
+  }
+}

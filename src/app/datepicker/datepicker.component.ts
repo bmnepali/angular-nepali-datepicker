@@ -1,5 +1,5 @@
 // Core imports
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output, Input, ViewChild, ElementRef, HostListener } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 
 // Services
@@ -12,9 +12,15 @@ import { CalendarService } from './calendar.service';
   providers: [CalendarService]
 })
 export class DatepickerComponent implements OnInit {
-  @Input() field: any;
+  @ViewChild('eRef') eRef: ElementRef;
+  @ViewChild('calendar') calendar: ElementRef;
+
   @Input() form: FormGroup;
+  @Input() field: any;
+  @Input() id: string;
   @Input() value: string;
+
+  @Output() callback = new EventEmitter<any>();
 
   // variable declerations
   fetchedYear: any;
@@ -34,12 +40,24 @@ export class DatepickerComponent implements OnInit {
   // Months
   months: string[];
 
-  // Oject to hold selected date
+  // Holds selected date
   selectedDate: any;
 
   // Additional flags
   isCalendarHidden: boolean;
   isLoading: boolean;
+
+  // Dicument click handler
+  @HostListener('document:click', ['$event'])
+  clickout(event) {
+    if(this.eRef && this.eRef.nativeElement.contains(event.target)) {
+      this.showCalendar();
+    } else {
+      if (this.calendar) {
+        this.hideCalendar();
+      }
+    }
+  }
 
   /**
    * Datepicker Component Constructor
@@ -87,6 +105,17 @@ export class DatepickerComponent implements OnInit {
   }
 
   /**
+   * Updates datepicker value
+   * @param data 
+   */
+  callParent(data) {
+    this.callback.emit({ 
+      key: this.id, 
+      data: data 
+    });
+  }
+
+  /**
    * Captures the payload sent form month component
    * Used to display the selected date
    * @param {string} message
@@ -94,6 +123,7 @@ export class DatepickerComponent implements OnInit {
   onNotify(data: any[]) {
     this.date = data[0] + " " + data[1] + ", " + data[2];
     this.day = data[0];
+    this.callParent(this.date);
     this.hideCalendar();
   }
 

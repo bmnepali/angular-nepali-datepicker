@@ -1,17 +1,11 @@
-<table cellspacing="0" class="main">
+<table cellspacing="0" class="calendar-content">
   <thead>
     <tr>
-      <td>आइत</td>
-      <td>सोम</td>
-      <td>मगल</td>
-      <td>बुध</td>
-      <td>बिहि</td>
-      <td>शुक्र</td>
-      <td>शनि</td>
+      <td  *ngFor="let day of weekDays">{{day}}</td>
     </tr>
   </thead>
   <tbody id="tbody">
-    <tr *ngFor="let week of chunk(monthData, 7)">
+    <tr *ngFor="let week of weeklyChunk(monthData, 7)">
       <td class='day'
         [ngClass]="{'active': day == monthDay.np && selectedDate.month == month && selectedDate.year == year}"
         *ngFor="let monthDay of week"

@@ -8,13 +8,14 @@ import { FieldService } from './form/services/field.service';
 })
 export class AppComponent {
   fields: any;
-  title = 'Dynamic form Demo';
+  title: string;
 
   /**
    * AppComponemt Constructor
    * @param  {object} service
    */
   constructor(FieldService: FieldService) {
+    this.title = 'Dynamic form Demo';
     this.fields = FieldService.getFields();
   }
 }

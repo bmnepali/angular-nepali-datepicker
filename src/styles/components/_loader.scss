@@ -1,0 +1,15 @@
+.overlay {
+  background-color: $grey;
+  font-weight: bolder;
+  height: 225px;
+  left: 0;
+  line-height: 165px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 260px;
+
+  .loader {
+    margin: 10% auto;
+  }
+}
